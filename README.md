@@ -14,14 +14,13 @@ This script provides a service to sync the HA shopping list with the Todoist lis
 ### Requirements
 
 1. [pyscript](https://github.com/custom-components/pyscript): Pyscript adds rich Python scripting to HASS (enable the global HASS variable when setting up)
-2. [Todoist API key](https://todoist.com/prefs/integrations)
-3. Todoist project ID (when on your Alexa Shopping List project, use the ID at the end of the URL)
+1. [Todoist API key](https://todoist.com/prefs/integrations)
+1. Todoist project ID (when on your Alexa Shopping List project, use the ID at the end of the URL)
 
 ### Installation
 
 1. Copy the file 'pyscript/shopping_list_sync.py' to your config/pyscript/ folder
-2. Copy the file 'pyscript_modules/write_file.py' to your config/pyscript_modules/ folder
-3. Restart pyscript
+1. Restart pyscript
 
 Run the service pyscript.sync_shopping_list from developer tools.
 
